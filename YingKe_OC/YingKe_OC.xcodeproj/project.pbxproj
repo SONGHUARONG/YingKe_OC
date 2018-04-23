@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B33E764A3EF98380BD8E52 /* libPods-YingKe_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */; };
+		76331487208DB790003BFFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76331485208DB790003BFFBA /* Main.storyboard */; };
+		76331489208DB791003BFFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76331488208DB791003BFFBA /* Assets.xcassets */; };
+		7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7633148A208DB791003BFFBA /* LaunchScreen.storyboard */; };
+		7633148F208DB791003BFFBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633148E208DB791003BFFBA /* main.m */; };
+		763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 763314A4208DB89C003BFFBA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BA90895E9D193840E6B2DA3 /* Pods-YingKe_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe_OC/Pods-YingKe_OC.release.xcconfig"; sourceTree = "<group>"; };
+		7633147C208DB790003BFFBA /* YingKe_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YingKe_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76331486208DB790003BFFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76331488208DB791003BFFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7633148B208DB791003BFFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7633148D208DB791003BFFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7633148E208DB791003BFFBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		763314A3208DB89C003BFFBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		763314A4208DB89C003BFFBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		763314B7208DB8C3003BFFBA /* yingke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingke.pch; sourceTree = "<group>"; };
+		7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe_OC/Pods-YingKe_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YingKe_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76331479208DB790003BFFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B33E764A3EF98380BD8E52 /* libPods-YingKe_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76331473208DB790003BFFBA = {
+			isa = PBXGroup;
+			children = (
+				7633147E208DB790003BFFBA /* YingKe_OC */,
+				7633147D208DB790003BFFBA /* Products */,
+				E90A68F460508504B2B8F9B8 /* Pods */,
+				BC44BFA4D894E48D68F9E27F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7633147D208DB790003BFFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7633147C208DB790003BFFBA /* YingKe_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7633147E208DB790003BFFBA /* YingKe_OC */ = {
+			isa = PBXGroup;
+			children = (
+				76331496208DB89C003BFFBA /* Class */,
+				76331495208DB829003BFFBA /* Supporting Files */,
+			);
+			path = YingKe_OC;
+			sourceTree = "<group>";
+		};
+		76331495208DB829003BFFBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76331485208DB790003BFFBA /* Main.storyboard */,
+				76331488208DB791003BFFBA /* Assets.xcassets */,
+				7633148A208DB791003BFFBA /* LaunchScreen.storyboard */,
+				7633148D208DB791003BFFBA /* Info.plist */,
+				7633148E208DB791003BFFBA /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76331496208DB89C003BFFBA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				76331497208DB89C003BFFBA /* Launch */,
+				7633149C208DB89C003BFFBA /* Show */,
+				763314A1208DB89C003BFFBA /* Network */,
+				763314A5208DB89C003BFFBA /* Me */,
+				763314AA208DB89C003BFFBA /* Live */,
+				763314AF208DB89C003BFFBA /* Lib */,
+				763314B0208DB89C003BFFBA /* Helper */,
+				763314B3208DB89C003BFFBA /* Base */,
+				763314A2208DB89C003BFFBA /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		76331497208DB89C003BFFBA /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				76331498208DB89C003BFFBA /* Handler */,
+				76331499208DB89C003BFFBA /* Controller */,
+				7633149A208DB89C003BFFBA /* Model */,
+				7633149B208DB89C003BFFBA /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		76331498208DB89C003BFFBA /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		76331499208DB89C003BFFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7633149A208DB89C003BFFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7633149B208DB89C003BFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7633149C208DB89C003BFFBA /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				7633149D208DB89C003BFFBA /* Handler */,
+				7633149E208DB89C003BFFBA /* Controller */,
+				7633149F208DB89C003BFFBA /* Model */,
+				763314A0208DB89C003BFFBA /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		7633149D208DB89C003BFFBA /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		7633149E208DB89C003BFFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7633149F208DB89C003BFFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		763314A0208DB89C003BFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		763314A1208DB89C003BFFBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		763314A2208DB89C003BFFBA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				763314A3208DB89C003BFFBA /* AppDelegate.h */,
+				763314A4208DB89C003BFFBA /* AppDelegate.m */,
+				763314B7208DB8C3003BFFBA /* yingke.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		763314A5208DB89C003BFFBA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				763314A6208DB89C003BFFBA /* Handler */,
+				763314A7208DB89C003BFFBA /* Controller */,
+				763314A8208DB89C003BFFBA /* Model */,
+				763314A9208DB89C003BFFBA /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		763314A6208DB89C003BFFBA /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		763314A7208DB89C003BFFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		763314A8208DB89C003BFFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		763314A9208DB89C003BFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		763314AA208DB89C003BFFBA /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				763314AB208DB89C003BFFBA /* Handler */,
+				763314AC208DB89C003BFFBA /* Controller */,
+				763314AD208DB89C003BFFBA /* Model */,
+				763314AE208DB89C003BFFBA /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		763314AB208DB89C003BFFBA /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		763314AC208DB89C003BFFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		763314AD208DB89C003BFFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		763314AE208DB89C003BFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		763314AF208DB89C003BFFBA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		763314B0208DB89C003BFFBA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				763314B1208DB89C003BFFBA /* Tools */,
+				763314B2208DB89C003BFFBA /* Categories */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		763314B1208DB89C003BFFBA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		763314B2208DB89C003BFFBA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		763314B3208DB89C003BFFBA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				763314B4208DB89C003BFFBA /* Controller */,
+				763314B5208DB89C003BFFBA /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		763314B4208DB89C003BFFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		763314B5208DB89C003BFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC44BFA4D894E48D68F9E27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90A68F460508504B2B8F9B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */,
+				0BA90895E9D193840E6B2DA3 /* Pods-YingKe_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7633147B208DB790003BFFBA /* YingKe_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76331492208DB791003BFFBA /* Build configuration list for PBXNativeTarget "YingKe_OC" */;
+			buildPhases = (
+				783389D24980D82F220B6FFF /* [CP] Check Pods Manifest.lock */,
+				76331478208DB790003BFFBA /* Sources */,
+				76331479208DB790003BFFBA /* Frameworks */,
+				7633147A208DB790003BFFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YingKe_OC;
+			productName = YingKe_OC;
+			productReference = 7633147C208DB790003BFFBA /* YingKe_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76331474208DB790003BFFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = huarong;
+				TargetAttributes = {
+					7633147B208DB790003BFFBA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 76331477208DB790003BFFBA /* Build configuration list for PBXProject "YingKe_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76331473208DB790003BFFBA;
+			productRefGroup = 7633147D208DB790003BFFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7633147B208DB790003BFFBA /* YingKe_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7633147A208DB790003BFFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */,
+				76331489208DB791003BFFBA /* Assets.xcassets in Resources */,
+				76331487208DB790003BFFBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		783389D24980D82F220B6FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YingKe_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76331478208DB790003BFFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */,
+				7633148F208DB791003BFFBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76331485208DB790003BFFBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76331486208DB790003BFFBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7633148A208DB791003BFFBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7633148B208DB791003BFFBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76331490208DB791003BFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76331491208DB791003BFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76331493208DB791003BFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U98UN9WT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
+				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vastconn.YingKe-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76331494208DB791003BFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA90895E9D193840E6B2DA3 /* Pods-YingKe_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U98UN9WT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
+				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vastconn.YingKe-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76331477208DB790003BFFBA /* Build configuration list for PBXProject "YingKe_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76331490208DB791003BFFBA /* Debug */,
+				76331491208DB791003BFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76331492208DB791003BFFBA /* Build configuration list for PBXNativeTarget "YingKe_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76331493208DB791003BFFBA /* Debug */,
+				76331494208DB791003BFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76331474208DB790003BFFBA /* Project object */;
+}
