@@ -23,6 +23,13 @@
 		763E7C4A208F2A7000CFA879 /* SHRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C49208F2A7000CFA879 /* SHRBaseViewController.m */; };
 		763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */; };
 		763E7C4F209017C600CFA879 /* SHRLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */; };
+		763E7C5320905C6400CFA879 /* SHRHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5120905C6400CFA879 /* SHRHotViewController.m */; };
+		763E7C5420905C6400CFA879 /* SHRHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5220905C6400CFA879 /* SHRHotViewController.xib */; };
+		763E7C5820905C7200CFA879 /* SHRNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5620905C7200CFA879 /* SHRNearViewController.m */; };
+		763E7C5920905C7200CFA879 /* SHRNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5720905C7200CFA879 /* SHRNearViewController.xib */; };
+		763E7C5D20905C7D00CFA879 /* SHRFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5B20905C7D00CFA879 /* SHRFocusViewController.m */; };
+		763E7C5E20905C7D00CFA879 /* SHRFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5C20905C7D00CFA879 /* SHRFocusViewController.xib */; };
+		763E7C6120907A4900CFA879 /* SHRMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C6020907A4900CFA879 /* SHRMainTopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +61,17 @@
 		763E7C4B209017C600CFA879 /* SHRLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRLaunchViewController.h; sourceTree = "<group>"; };
 		763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRLaunchViewController.m; sourceTree = "<group>"; };
 		763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRLaunchViewController.xib; sourceTree = "<group>"; };
+		763E7C5020905C6400CFA879 /* SHRHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRHotViewController.h; sourceTree = "<group>"; };
+		763E7C5120905C6400CFA879 /* SHRHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRHotViewController.m; sourceTree = "<group>"; };
+		763E7C5220905C6400CFA879 /* SHRHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRHotViewController.xib; sourceTree = "<group>"; };
+		763E7C5520905C7200CFA879 /* SHRNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRNearViewController.h; sourceTree = "<group>"; };
+		763E7C5620905C7200CFA879 /* SHRNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRNearViewController.m; sourceTree = "<group>"; };
+		763E7C5720905C7200CFA879 /* SHRNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRNearViewController.xib; sourceTree = "<group>"; };
+		763E7C5A20905C7D00CFA879 /* SHRFocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRFocusViewController.h; sourceTree = "<group>"; };
+		763E7C5B20905C7D00CFA879 /* SHRFocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRFocusViewController.m; sourceTree = "<group>"; };
+		763E7C5C20905C7D00CFA879 /* SHRFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRFocusViewController.xib; sourceTree = "<group>"; };
+		763E7C5F20907A4900CFA879 /* SHRMainTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMainTopView.h; sourceTree = "<group>"; };
+		763E7C6020907A4900CFA879 /* SHRMainTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMainTopView.m; sourceTree = "<group>"; };
 		7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe_OC/Pods-YingKe_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YingKe_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -191,6 +209,15 @@
 				763E7C40208F244900CFA879 /* SHRMeViewController.h */,
 				763E7C41208F244900CFA879 /* SHRMeViewController.m */,
 				763E7C42208F244900CFA879 /* SHRMeViewController.xib */,
+				763E7C5020905C6400CFA879 /* SHRHotViewController.h */,
+				763E7C5120905C6400CFA879 /* SHRHotViewController.m */,
+				763E7C5220905C6400CFA879 /* SHRHotViewController.xib */,
+				763E7C5520905C7200CFA879 /* SHRNearViewController.h */,
+				763E7C5620905C7200CFA879 /* SHRNearViewController.m */,
+				763E7C5720905C7200CFA879 /* SHRNearViewController.xib */,
+				763E7C5A20905C7D00CFA879 /* SHRFocusViewController.h */,
+				763E7C5B20905C7D00CFA879 /* SHRFocusViewController.m */,
+				763E7C5C20905C7D00CFA879 /* SHRFocusViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +232,8 @@
 		763314A0208DB89C003BFFBA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				763E7C5F20907A4900CFA879 /* SHRMainTopView.h */,
+				763E7C6020907A4900CFA879 /* SHRMainTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,7 +476,10 @@
 			files = (
 				7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */,
 				76331489208DB791003BFFBA /* Assets.xcassets in Resources */,
+				763E7C5420905C6400CFA879 /* SHRHotViewController.xib in Resources */,
 				76331487208DB790003BFFBA /* Main.storyboard in Resources */,
+				763E7C5E20905C7D00CFA879 /* SHRFocusViewController.xib in Resources */,
+				763E7C5920905C7200CFA879 /* SHRNearViewController.xib in Resources */,
 				763E7C4F209017C600CFA879 /* SHRLaunchViewController.xib in Resources */,
 				763E7C3F208F243800CFA879 /* SHRMainViewController.xib in Resources */,
 				763E7C44208F244900CFA879 /* SHRMeViewController.xib in Resources */,
@@ -485,8 +517,12 @@
 				763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */,
 				763E7C4A208F2A7000CFA879 /* SHRBaseViewController.m in Sources */,
 				763E7C47208F263A00CFA879 /* SHRNavigationController.m in Sources */,
+				763E7C5820905C7200CFA879 /* SHRNearViewController.m in Sources */,
 				763E7C37208F0AB400CFA879 /* SHRTabBarController.m in Sources */,
+				763E7C5320905C6400CFA879 /* SHRHotViewController.m in Sources */,
 				7633148F208DB791003BFFBA /* main.m in Sources */,
+				763E7C5D20905C7D00CFA879 /* SHRFocusViewController.m in Sources */,
+				763E7C6120907A4900CFA879 /* SHRMainTopView.m in Sources */,
 				763E7C3A208F0AE900CFA879 /* SHRTabBar.m in Sources */,
 				763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */,
 				763E7C43208F244900CFA879 /* SHRMeViewController.m in Sources */,

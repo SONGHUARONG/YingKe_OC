@@ -14,5 +14,6 @@
 
 
 #import "SHRMacros.h"
+#import "YYKit.h"
 
 #endif /* yingke_pch */
