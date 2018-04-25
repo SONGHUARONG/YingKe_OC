@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SHRTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SHRTabBarController *tabVc = [[SHRTabBarController alloc] init];
+    self.window.rootViewController = tabVc;
     return YES;
 }
 

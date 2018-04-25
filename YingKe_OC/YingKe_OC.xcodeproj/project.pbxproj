@@ -13,6 +13,16 @@
 		7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7633148A208DB791003BFFBA /* LaunchScreen.storyboard */; };
 		7633148F208DB791003BFFBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633148E208DB791003BFFBA /* main.m */; };
 		763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 763314A4208DB89C003BFFBA /* AppDelegate.m */; };
+		763E7C37208F0AB400CFA879 /* SHRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C36208F0AB400CFA879 /* SHRTabBarController.m */; };
+		763E7C3A208F0AE900CFA879 /* SHRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C39208F0AE900CFA879 /* SHRTabBar.m */; };
+		763E7C3E208F243800CFA879 /* SHRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C3C208F243800CFA879 /* SHRMainViewController.m */; };
+		763E7C3F208F243800CFA879 /* SHRMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C3D208F243800CFA879 /* SHRMainViewController.xib */; };
+		763E7C43208F244900CFA879 /* SHRMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C41208F244900CFA879 /* SHRMeViewController.m */; };
+		763E7C44208F244900CFA879 /* SHRMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C42208F244900CFA879 /* SHRMeViewController.xib */; };
+		763E7C47208F263A00CFA879 /* SHRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C46208F263A00CFA879 /* SHRNavigationController.m */; };
+		763E7C4A208F2A7000CFA879 /* SHRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C49208F2A7000CFA879 /* SHRBaseViewController.m */; };
+		763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */; };
+		763E7C4F209017C600CFA879 /* SHRLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,24 @@
 		763314A3208DB89C003BFFBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		763314A4208DB89C003BFFBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		763314B7208DB8C3003BFFBA /* yingke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingke.pch; sourceTree = "<group>"; };
+		763314BA208DC192003BFFBA /* SHRMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMacros.h; sourceTree = "<group>"; };
+		763E7C35208F0AB400CFA879 /* SHRTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRTabBarController.h; sourceTree = "<group>"; };
+		763E7C36208F0AB400CFA879 /* SHRTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRTabBarController.m; sourceTree = "<group>"; };
+		763E7C38208F0AE900CFA879 /* SHRTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRTabBar.h; sourceTree = "<group>"; };
+		763E7C39208F0AE900CFA879 /* SHRTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRTabBar.m; sourceTree = "<group>"; };
+		763E7C3B208F243800CFA879 /* SHRMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMainViewController.h; sourceTree = "<group>"; };
+		763E7C3C208F243800CFA879 /* SHRMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMainViewController.m; sourceTree = "<group>"; };
+		763E7C3D208F243800CFA879 /* SHRMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRMainViewController.xib; sourceTree = "<group>"; };
+		763E7C40208F244900CFA879 /* SHRMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMeViewController.h; sourceTree = "<group>"; };
+		763E7C41208F244900CFA879 /* SHRMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMeViewController.m; sourceTree = "<group>"; };
+		763E7C42208F244900CFA879 /* SHRMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRMeViewController.xib; sourceTree = "<group>"; };
+		763E7C45208F263A00CFA879 /* SHRNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRNavigationController.h; sourceTree = "<group>"; };
+		763E7C46208F263A00CFA879 /* SHRNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRNavigationController.m; sourceTree = "<group>"; };
+		763E7C48208F2A7000CFA879 /* SHRBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRBaseViewController.h; sourceTree = "<group>"; };
+		763E7C49208F2A7000CFA879 /* SHRBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRBaseViewController.m; sourceTree = "<group>"; };
+		763E7C4B209017C600CFA879 /* SHRLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRLaunchViewController.h; sourceTree = "<group>"; };
+		763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRLaunchViewController.m; sourceTree = "<group>"; };
+		763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRLaunchViewController.xib; sourceTree = "<group>"; };
 		7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe_OC/Pods-YingKe_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YingKe_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -84,14 +112,14 @@
 		76331496208DB89C003BFFBA /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				763314B3208DB89C003BFFBA /* Base */,
+				763314AA208DB89C003BFFBA /* Live */,
 				76331497208DB89C003BFFBA /* Launch */,
 				7633149C208DB89C003BFFBA /* Show */,
-				763314A1208DB89C003BFFBA /* Network */,
 				763314A5208DB89C003BFFBA /* Me */,
-				763314AA208DB89C003BFFBA /* Live */,
-				763314AF208DB89C003BFFBA /* Lib */,
 				763314B0208DB89C003BFFBA /* Helper */,
-				763314B3208DB89C003BFFBA /* Base */,
+				763314A1208DB89C003BFFBA /* Network */,
+				763314AF208DB89C003BFFBA /* Lib */,
 				763314A2208DB89C003BFFBA /* Other */,
 			);
 			path = Class;
@@ -157,6 +185,12 @@
 		7633149E208DB89C003BFFBA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				763E7C3B208F243800CFA879 /* SHRMainViewController.h */,
+				763E7C3C208F243800CFA879 /* SHRMainViewController.m */,
+				763E7C3D208F243800CFA879 /* SHRMainViewController.xib */,
+				763E7C40208F244900CFA879 /* SHRMeViewController.h */,
+				763E7C41208F244900CFA879 /* SHRMeViewController.m */,
+				763E7C42208F244900CFA879 /* SHRMeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +222,7 @@
 				763314A3208DB89C003BFFBA /* AppDelegate.h */,
 				763314A4208DB89C003BFFBA /* AppDelegate.m */,
 				763314B7208DB8C3003BFFBA /* yingke.pch */,
+				763314BA208DC192003BFFBA /* SHRMacros.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -252,6 +287,9 @@
 		763314AC208DB89C003BFFBA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				763E7C4B209017C600CFA879 /* SHRLaunchViewController.h */,
+				763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */,
+				763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,6 +350,14 @@
 		763314B4208DB89C003BFFBA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				763E7C48208F2A7000CFA879 /* SHRBaseViewController.h */,
+				763E7C49208F2A7000CFA879 /* SHRBaseViewController.m */,
+				763E7C45208F263A00CFA879 /* SHRNavigationController.h */,
+				763E7C46208F263A00CFA879 /* SHRNavigationController.m */,
+				763E7C35208F0AB400CFA879 /* SHRTabBarController.h */,
+				763E7C36208F0AB400CFA879 /* SHRTabBarController.m */,
+				763E7C38208F0AE900CFA879 /* SHRTabBar.h */,
+				763E7C39208F0AE900CFA879 /* SHRTabBar.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -367,6 +413,7 @@
 		76331474208DB790003BFFBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SHR;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = huarong;
 				TargetAttributes = {
@@ -401,6 +448,9 @@
 				7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */,
 				76331489208DB791003BFFBA /* Assets.xcassets in Resources */,
 				76331487208DB790003BFFBA /* Main.storyboard in Resources */,
+				763E7C4F209017C600CFA879 /* SHRLaunchViewController.xib in Resources */,
+				763E7C3F208F243800CFA879 /* SHRMainViewController.xib in Resources */,
+				763E7C44208F244900CFA879 /* SHRMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +483,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */,
+				763E7C4A208F2A7000CFA879 /* SHRBaseViewController.m in Sources */,
+				763E7C47208F263A00CFA879 /* SHRNavigationController.m in Sources */,
+				763E7C37208F0AB400CFA879 /* SHRTabBarController.m in Sources */,
 				7633148F208DB791003BFFBA /* main.m in Sources */,
+				763E7C3A208F0AE900CFA879 /* SHRTabBar.m in Sources */,
+				763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */,
+				763E7C43208F244900CFA879 /* SHRMeViewController.m in Sources */,
+				763E7C3E208F243800CFA879 /* SHRMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,11 +631,15 @@
 			baseConfigurationReference = 7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83U98UN9WT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vastconn.YingKe-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,11 +651,15 @@
 			baseConfigurationReference = 0BA90895E9D193840E6B2DA3 /* Pods-YingKe_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83U98UN9WT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vastconn.YingKe-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
