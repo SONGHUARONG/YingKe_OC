@@ -24,12 +24,18 @@
 		763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C4C209017C600CFA879 /* SHRLaunchViewController.m */; };
 		763E7C4F209017C600CFA879 /* SHRLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */; };
 		763E7C5320905C6400CFA879 /* SHRHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5120905C6400CFA879 /* SHRHotViewController.m */; };
-		763E7C5420905C6400CFA879 /* SHRHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5220905C6400CFA879 /* SHRHotViewController.xib */; };
 		763E7C5820905C7200CFA879 /* SHRNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5620905C7200CFA879 /* SHRNearViewController.m */; };
 		763E7C5920905C7200CFA879 /* SHRNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5720905C7200CFA879 /* SHRNearViewController.xib */; };
 		763E7C5D20905C7D00CFA879 /* SHRFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C5B20905C7D00CFA879 /* SHRFocusViewController.m */; };
 		763E7C5E20905C7D00CFA879 /* SHRFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763E7C5C20905C7D00CFA879 /* SHRFocusViewController.xib */; };
 		763E7C6120907A4900CFA879 /* SHRMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C6020907A4900CFA879 /* SHRMainTopView.m */; };
+		763E7C6A2090BC0500CFA879 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C672090BC0500CFA879 /* UIImageView+SDWebImage.m */; };
+		763E7C6B2090BC0500CFA879 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E7C692090BC0500CFA879 /* HttpTool.m */; };
+		766E452F2091684B0080973F /* SHRBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E452E2091684B0080973F /* SHRBaseHandler.m */; };
+		766E453220916C4E0080973F /* SHRHotLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E453120916C4E0080973F /* SHRHotLiveHandler.m */; };
+		766E453B2091AFC80080973F /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E453A2091AFC80080973F /* MJExtensionConfig.m */; };
+		766E45402091B9F60080973F /* SHRCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E453C2091B9F60080973F /* SHRCreator.m */; };
+		766E45412091B9F60080973F /* SHRLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E453D2091B9F60080973F /* SHRLive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +69,6 @@
 		763E7C4D209017C600CFA879 /* SHRLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRLaunchViewController.xib; sourceTree = "<group>"; };
 		763E7C5020905C6400CFA879 /* SHRHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRHotViewController.h; sourceTree = "<group>"; };
 		763E7C5120905C6400CFA879 /* SHRHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRHotViewController.m; sourceTree = "<group>"; };
-		763E7C5220905C6400CFA879 /* SHRHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRHotViewController.xib; sourceTree = "<group>"; };
 		763E7C5520905C7200CFA879 /* SHRNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRNearViewController.h; sourceTree = "<group>"; };
 		763E7C5620905C7200CFA879 /* SHRNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRNearViewController.m; sourceTree = "<group>"; };
 		763E7C5720905C7200CFA879 /* SHRNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRNearViewController.xib; sourceTree = "<group>"; };
@@ -72,6 +77,21 @@
 		763E7C5C20905C7D00CFA879 /* SHRFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRFocusViewController.xib; sourceTree = "<group>"; };
 		763E7C5F20907A4900CFA879 /* SHRMainTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMainTopView.h; sourceTree = "<group>"; };
 		763E7C6020907A4900CFA879 /* SHRMainTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMainTopView.m; sourceTree = "<group>"; };
+		763E7C632090BB7B00CFA879 /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		763E7C662090BC0500CFA879 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		763E7C672090BC0500CFA879 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		763E7C682090BC0500CFA879 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		763E7C692090BC0500CFA879 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		766E452D2091684B0080973F /* SHRBaseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRBaseHandler.h; sourceTree = "<group>"; };
+		766E452E2091684B0080973F /* SHRBaseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRBaseHandler.m; sourceTree = "<group>"; };
+		766E453020916C4E0080973F /* SHRHotLiveHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRHotLiveHandler.h; sourceTree = "<group>"; };
+		766E453120916C4E0080973F /* SHRHotLiveHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRHotLiveHandler.m; sourceTree = "<group>"; };
+		766E45392091AFC80080973F /* MJExtensionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		766E453A2091AFC80080973F /* MJExtensionConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		766E453C2091B9F60080973F /* SHRCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRCreator.m; sourceTree = "<group>"; };
+		766E453D2091B9F60080973F /* SHRLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRLive.m; sourceTree = "<group>"; };
+		766E453E2091B9F60080973F /* SHRCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRCreator.h; sourceTree = "<group>"; };
+		766E453F2091B9F60080973F /* SHRLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRLive.h; sourceTree = "<group>"; };
 		7E332D8D80CD23DB3DBA861E /* Pods-YingKe_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe_OC/Pods-YingKe_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC74A7E004E3F65EB915C93E /* libPods-YingKe_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YingKe_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -196,6 +216,8 @@
 		7633149D208DB89C003BFFBA /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				766E453020916C4E0080973F /* SHRHotLiveHandler.h */,
+				766E453120916C4E0080973F /* SHRHotLiveHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -211,7 +233,6 @@
 				763E7C42208F244900CFA879 /* SHRMeViewController.xib */,
 				763E7C5020905C6400CFA879 /* SHRHotViewController.h */,
 				763E7C5120905C6400CFA879 /* SHRHotViewController.m */,
-				763E7C5220905C6400CFA879 /* SHRHotViewController.xib */,
 				763E7C5520905C7200CFA879 /* SHRNearViewController.h */,
 				763E7C5620905C7200CFA879 /* SHRNearViewController.m */,
 				763E7C5720905C7200CFA879 /* SHRNearViewController.xib */,
@@ -225,6 +246,10 @@
 		7633149F208DB89C003BFFBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				766E453E2091B9F60080973F /* SHRCreator.h */,
+				766E453C2091B9F60080973F /* SHRCreator.m */,
+				766E453F2091B9F60080973F /* SHRLive.h */,
+				766E453D2091B9F60080973F /* SHRLive.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +266,11 @@
 		763314A1208DB89C003BFFBA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				763E7C682090BC0500CFA879 /* HttpTool.h */,
+				763E7C692090BC0500CFA879 /* HttpTool.m */,
+				763E7C662090BC0500CFA879 /* UIImageView+SDWebImage.h */,
+				763E7C672090BC0500CFA879 /* UIImageView+SDWebImage.m */,
+				763E7C632090BB7B00CFA879 /* APIConfig.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -252,6 +282,8 @@
 				763314A4208DB89C003BFFBA /* AppDelegate.m */,
 				763314B7208DB8C3003BFFBA /* yingke.pch */,
 				763314BA208DC192003BFFBA /* SHRMacros.h */,
+				766E45392091AFC80080973F /* MJExtensionConfig.h */,
+				766E453A2091AFC80080973F /* MJExtensionConfig.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -370,15 +402,6 @@
 		763314B3208DB89C003BFFBA /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				763314B4208DB89C003BFFBA /* Controller */,
-				763314B5208DB89C003BFFBA /* View */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		763314B4208DB89C003BFFBA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				763E7C48208F2A7000CFA879 /* SHRBaseViewController.h */,
 				763E7C49208F2A7000CFA879 /* SHRBaseViewController.m */,
 				763E7C45208F263A00CFA879 /* SHRNavigationController.h */,
@@ -387,15 +410,10 @@
 				763E7C36208F0AB400CFA879 /* SHRTabBarController.m */,
 				763E7C38208F0AE900CFA879 /* SHRTabBar.h */,
 				763E7C39208F0AE900CFA879 /* SHRTabBar.m */,
+				766E452D2091684B0080973F /* SHRBaseHandler.h */,
+				766E452E2091684B0080973F /* SHRBaseHandler.m */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		763314B5208DB89C003BFFBA /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		BC44BFA4D894E48D68F9E27F /* Frameworks */ = {
@@ -476,7 +494,6 @@
 			files = (
 				7633148C208DB791003BFFBA /* LaunchScreen.storyboard in Resources */,
 				76331489208DB791003BFFBA /* Assets.xcassets in Resources */,
-				763E7C5420905C6400CFA879 /* SHRHotViewController.xib in Resources */,
 				76331487208DB790003BFFBA /* Main.storyboard in Resources */,
 				763E7C5E20905C7D00CFA879 /* SHRFocusViewController.xib in Resources */,
 				763E7C5920905C7200CFA879 /* SHRNearViewController.xib in Resources */,
@@ -514,19 +531,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766E453220916C4E0080973F /* SHRHotLiveHandler.m in Sources */,
 				763314B6208DB89C003BFFBA /* AppDelegate.m in Sources */,
+				766E45402091B9F60080973F /* SHRCreator.m in Sources */,
+				766E452F2091684B0080973F /* SHRBaseHandler.m in Sources */,
 				763E7C4A208F2A7000CFA879 /* SHRBaseViewController.m in Sources */,
 				763E7C47208F263A00CFA879 /* SHRNavigationController.m in Sources */,
 				763E7C5820905C7200CFA879 /* SHRNearViewController.m in Sources */,
 				763E7C37208F0AB400CFA879 /* SHRTabBarController.m in Sources */,
 				763E7C5320905C6400CFA879 /* SHRHotViewController.m in Sources */,
+				766E453B2091AFC80080973F /* MJExtensionConfig.m in Sources */,
 				7633148F208DB791003BFFBA /* main.m in Sources */,
 				763E7C5D20905C7D00CFA879 /* SHRFocusViewController.m in Sources */,
+				763E7C6A2090BC0500CFA879 /* UIImageView+SDWebImage.m in Sources */,
 				763E7C6120907A4900CFA879 /* SHRMainTopView.m in Sources */,
 				763E7C3A208F0AE900CFA879 /* SHRTabBar.m in Sources */,
 				763E7C4E209017C600CFA879 /* SHRLaunchViewController.m in Sources */,
 				763E7C43208F244900CFA879 /* SHRMeViewController.m in Sources */,
+				766E45412091B9F60080973F /* SHRLive.m in Sources */,
 				763E7C3E208F243800CFA879 /* SHRMainViewController.m in Sources */,
+				763E7C6B2090BC0500CFA879 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +696,7 @@
 				DEVELOPMENT_TEAM = 83U98UN9WT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,6 +717,7 @@
 				DEVELOPMENT_TEAM = 83U98UN9WT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YingKe_OC/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "YingKe_OC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

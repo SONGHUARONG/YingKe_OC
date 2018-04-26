@@ -8,6 +8,6 @@
 
 #import "SHRBaseViewController.h"
 
-@interface SHRHotViewController : SHRBaseViewController
+@interface SHRHotViewController : UITableViewController
 
 @end
